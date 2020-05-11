@@ -1,0 +1,83 @@
+/*fourthPage*/
+
+.fourthPage .outter,
+.fourthPage .h2{
+    color: #666666;
+}
+
+/*.fourthPage .outter{
+    padding-top: 120px;
+}*/
+
+.fourthPage .logo{
+    width: calc(155px * 2);
+    height: calc(176px * 2);
+    background-image: url('../image/fourth/logo.svg');
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fourthPage .info{
+    width: 570px;
+    height: auto;
+    padding: 0;
+    padding-left: 36px;
+}
+
+.fourthPage .info .para{
+    font-size: 16px;
+}
+
+.fourthPage .poster-group{
+    width: auto;
+}
+
+.fourthPage .poster{
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4)
+}
+
+.fourthPage .info .h3{
+    font-size: 24px;
+    line-height: 2;
+}
+
+.fourthPage .para.name{
+    padding-bottom: 8px;
+}
+
+
+
+.fourthPage .section-slide-2 .poster-group,
+.fourthPage .section-slide-3 .poster-group{
+    padding-top: 0;
+}
+
+.fourthPage .section-slide-2 .info{
+    width: 480px;
+    padding: 0;
+    margin-right: 36px;
+}
+
+.fourthPage .section-slide-2 .para,
+.fourthPage .section-slide-3 .para{
+    text-align: justify;
+}
+
+
+
+.fourthPage .section-slide-3 .info{
+    padding: 0;
+    padding-bottom: 60px;
+}
+
+.fourthPage .section-slide-4 .outter,
+.fourthPage .section-slide-4 .para{
+    color: #fff;
+}
+
+.fourthPage .section-slide-5 .info{
+    padding-left: 36px;
+    margin: 0;
+}

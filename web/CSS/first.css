@@ -1,0 +1,24 @@
+/*firstPage*/
+
+.firstPage .info{
+	width: 25%;
+	padding-top: 200px;
+}
+
+.firstPage .poster-group{
+    padding: 120px 36px;
+}
+
+.firstPage .poster-group .poster-margin{
+	margin-left: -160px;
+}
+
+.firstPage .poster-4-column,
+.firstPage .poster-3-column{
+    width: calc(210px * 3 + 48px);
+}
+
+.firstPage .poster-4-column{
+    margin-bottom: 24px;
+}
+

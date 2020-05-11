@@ -1,0 +1,87 @@
+/*secondPage*/
+.secondPage .logo-1{
+    background-image: url('../image/second/logo-1.svg');
+}
+
+.secondPage .logo-2{
+    background-image: url('../image/second/logo-2.svg');
+}
+
+.secondPage .info{
+    width: 25%;
+    height: auto;
+}
+
+.secondPage .section-slide-1 .poster-group{
+    padding-left: 0;
+}
+
+.secondPage .business-card-1{
+    width: calc(90px * 4.5);
+    height: calc(54px * 4.5);
+    margin-top: 36px;
+    background-image: url('../image/second/business-cards-1.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.secondPage .business-card-2{
+    width: calc(90px * 4.5);
+    height: calc(54px * 4.5);
+    margin-top: 36px;
+    background-image: url('../image/second/business-cards-2.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.secondPage .section-slide-1 .info{
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+
+
+.secondPage .section-slide-2 .poster-group{
+    width: auto;
+    margin: auto; 
+    padding: 0;
+    padding-top: 36px;
+}
+
+
+
+.secondPage .section-slide-3 .poster{
+    width: calc(210px * 1.5);
+    height: calc(297px * 1.5);
+    background-image: url('../image/second/poster-8-1.png');
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-right: 36px;
+    transition: all .2s;
+}
+
+.secondPage .section-slide-3 .poster:hover{
+    background-image: url('../image/second/poster-8-2.png');
+}
+
+
+
+.secondPage .section-slide-4 .info{
+    padding-left: 36px;
+    padding-right: 0;
+}
+
+.secondPage .section-slide-4 .poster-group{
+    padding-left: 0;
+}

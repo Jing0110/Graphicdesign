@@ -1,0 +1,188 @@
+/*sixthPage*/
+
+.sixthPage .outter{
+    padding: 36px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixthPage .logo{
+    width: calc(40px * 8);
+    height: calc(30px * 8);
+    margin-bottom: 24px;
+    background-image: url('../image/sixth/logo.svg');
+    background-position: 100% 100%;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sixthPage .outter .info{
+    width: 25%;
+    height: auto;
+    padding: 36px 48px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sixthPage .outter .info .para{
+    text-align: justify;
+}
+
+.sixthPage .poster-group{
+    width: auto;
+    padding: 0;
+}
+
+.poster-arpon{
+    width: calc(620px * 0.7);
+    height: calc(806px * 0.7);
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('../image/sixth/apron.jpg');
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sixthPage .poster-group-right{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 24px;
+}
+
+.sixthPage .poster-group .poster-bag{
+    width: calc(700px * 0.3);
+    height: calc(460px * 0.3);
+    margin: 0;
+    background-image: url('../image/sixth/bag.jpg');
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sixthPage .poster-group .poster-cup{
+    width: calc(700px * 0.4);
+    height: calc(486px * 0.4);
+    background-image: url('../image/sixth/cup.jpg');
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*-----*/
+
+.sixthPage .section-slide-2 .explanation{
+    width: 341px;
+    height: 398px;
+    margin-right: 36px;
+    background-image: url('../image/sixth/explanation.png');
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sixthPage .poster-group{
+    width: auto;
+    font-size: 0;
+}
+
+.sixthPage .section-slide-2 .poster-group{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.sixthPage .poster-group .poster-none{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*-----*/
+
+.sixthPage .section-slide-3 .rwd-full{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.sixthPage .section-slide-3 .info{
+    width: 50%;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.sixthPage .section-slide-3 .info .para{
+    text-align: center;
+}
+
+@media (max-width: 1329px){
+    .sixthPage .outter .info{
+        width: calc(620px * 0.55);
+    }
+
+    .sixthPage .section-slide-1 .poster-group{
+        width: calc(82% - 341px);
+    }
+
+    .sixthPage .info .logo-rwd{
+        width: calc(40px * 7);
+        height: calc(30px * 7);
+        background-color: #111;
+    }
+
+    .sixthPage .outter .info .h2{
+        margin-top: 0;
+    }
+
+    .poster-arpon{
+        width: calc(620px * 0.55);
+        height: calc(806px * 0.55);
+        display: inline-block;
+        vertical-align: middle;
+        background-image: url('../image/sixth/apron.jpg');
+        background-position: center;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .sixthPage .poster-group .poster-bag{
+        width: calc(700px * 0.3);
+        height: calc(460px * 0.3);
+        margin-bottom: 24px;
+        background-image: url('../image/sixth/bag.jpg');
+        background-position: center;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .sixthPage .poster-group .poster-cup{
+        width: calc(700px * 0.4);
+        height: calc(486px * 0.4);
+        background-image: url('../image/sixth/cup.jpg');
+        background-position: center;
+        -webkit-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1625px) {
+    .sixthPage .section-slide-3 .poster{
+        width: calc(210px * 1);
+        height: calc(297px * 1);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .poster{
+        width: calc(210px * .8);
+        height: calc(297px * .8);
+    }
+}

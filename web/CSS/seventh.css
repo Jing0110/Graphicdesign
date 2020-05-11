@@ -1,0 +1,26 @@
+/*seventhPage*/
+
+.seventhPage .logo{
+    width: calc(40px * 6);
+    height: calc(30px * 6);
+    background-image: url('../image/seventh/logo.svg');
+}
+
+.seventhPage .info{
+    width: 25%;
+    padding-left: 60px;
+}
+
+.seventhPage .poster-group{
+    width: auto;
+    padding: 120px 36px;
+}
+
+.seventhPage .poster-3-column{
+    width: calc(210px * 3 + 48px);
+    margin-bottom: 24px;
+}
+
+@media (max-width: 1515px) {
+    
+}
